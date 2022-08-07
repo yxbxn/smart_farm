@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-08-07T15:34:11.125Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="hT7j1GfxLLko-zc5_m2f" version="20.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-07T16:38:13.364Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="F2sYI7dwcjICnTpj4nT2" version="20.2.3" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1685" dy="683" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1730" dy="659" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -10,9 +10,9 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-3" value="시작" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="-390" y="70" width="120" height="40" as="geometry" />
+          <mxGeometry x="-390" y="110" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="FTOqa2qA6MBbZ1o0ttPw-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" edge="1">
+        <mxCell id="FTOqa2qA6MBbZ1o0ttPw-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" edge="1" target="FTOqa2qA6MBbZ1o0ttPw-6">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-330" y="240" as="sourcePoint" />
             <mxPoint x="-330" y="310" as="targetPoint" />
@@ -21,27 +21,23 @@
         <mxCell id="FTOqa2qA6MBbZ1o0ttPw-4" value="스마트팜의 변수들을 &lt;br&gt;이용하여 미래&lt;br&gt;내부 온도를 예측한다." style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="-390" y="180" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="FTOqa2qA6MBbZ1o0ttPw-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FTOqa2qA6MBbZ1o0ttPw-6" target="FTOqa2qA6MBbZ1o0ttPw-7" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="FTOqa2qA6MBbZ1o0ttPw-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FTOqa2qA6MBbZ1o0ttPw-6" target="FTOqa2qA6MBbZ1o0ttPw-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="FTOqa2qA6MBbZ1o0ttPw-6" value="내부 온도가 최대 설정 &lt;br&gt;온도 이상인가?" style="rhombus;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="-410" y="310" width="160" height="70" as="geometry" />
+        <mxCell id="4Cm1SKZQriDtmQIN7wxg-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FTOqa2qA6MBbZ1o0ttPw-6" target="FTOqa2qA6MBbZ1o0ttPw-7">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="FTOqa2qA6MBbZ1o0ttPw-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FTOqa2qA6MBbZ1o0ttPw-7" target="FTOqa2qA6MBbZ1o0ttPw-4" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="-150" y="210" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="FTOqa2qA6MBbZ1o0ttPw-6" value="내부 온도가 최대 설정 &lt;br&gt;온도 이상인가?" style="rhombus;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-410" y="295" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="4Cm1SKZQriDtmQIN7wxg-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FTOqa2qA6MBbZ1o0ttPw-7" target="FTOqa2qA6MBbZ1o0ttPw-4">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="FTOqa2qA6MBbZ1o0ttPw-7" value="내부 온도를 감소시키는 방향으로 스마트팜 작동 변수를 변경한다." style="whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="-210" y="240" width="120" height="60" as="geometry" />
+          <mxGeometry x="-240" y="236" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FTOqa2qA6MBbZ1o0ttPw-10" value="네" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="-250" y="315" width="30" height="30" as="geometry" />
+          <mxGeometry x="-250" y="331" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="FTOqa2qA6MBbZ1o0ttPw-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FTOqa2qA6MBbZ1o0ttPw-11" target="FTOqa2qA6MBbZ1o0ttPw-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -50,61 +46,60 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="FTOqa2qA6MBbZ1o0ttPw-11" value="내부 온도가 최저 설정 &lt;br&gt;온도 이하인가?" style="rhombus;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="-410" y="460" width="160" height="70" as="geometry" />
+          <mxGeometry x="-410" y="399" width="160" height="70" as="geometry" />
         </mxCell>
         <mxCell id="FTOqa2qA6MBbZ1o0ttPw-13" value="아니오" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="-330" y="400" width="50" height="30" as="geometry" />
+          <mxGeometry x="-330" y="374" width="50" height="30" as="geometry" />
         </mxCell>
         <mxCell id="FTOqa2qA6MBbZ1o0ttPw-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FTOqa2qA6MBbZ1o0ttPw-14" target="FTOqa2qA6MBbZ1o0ttPw-4" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-510" y="210" />
+              <mxPoint x="-486" y="210" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="FTOqa2qA6MBbZ1o0ttPw-14" value="내부 온도를 증가시키는 방향으로 스마트팜 작동 변수를 변경한다." style="whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="-570" y="320" width="120" height="60" as="geometry" />
+          <mxGeometry x="-546" y="297" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FTOqa2qA6MBbZ1o0ttPw-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FTOqa2qA6MBbZ1o0ttPw-17" target="FTOqa2qA6MBbZ1o0ttPw-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="FTOqa2qA6MBbZ1o0ttPw-17" value="배기팬, 유동팬, 천창, &lt;br&gt;차광/차열스크린 등 작동" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="-20" y="230" width="160" height="40" as="geometry" />
+          <mxGeometry x="-68" y="230" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="FTOqa2qA6MBbZ1o0ttPw-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FTOqa2qA6MBbZ1o0ttPw-18" target="FTOqa2qA6MBbZ1o0ttPw-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="FTOqa2qA6MBbZ1o0ttPw-18" value="팬코일, 에너지스크린 작동 중지" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="-20" y="280" width="160" height="20" as="geometry" />
+          <mxGeometry x="-68" y="280" width="160" height="20" as="geometry" />
         </mxCell>
         <mxCell id="FTOqa2qA6MBbZ1o0ttPw-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FTOqa2qA6MBbZ1o0ttPw-30" target="FTOqa2qA6MBbZ1o0ttPw-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="FTOqa2qA6MBbZ1o0ttPw-30" value="배기팬, 유동팬, 천창, &lt;br&gt;차광/차열스크린 등 작동 중지" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="-780" y="350" width="150" height="40" as="geometry" />
+          <mxGeometry x="-740" y="327" width="150" height="40" as="geometry" />
         </mxCell>
         <mxCell id="FTOqa2qA6MBbZ1o0ttPw-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FTOqa2qA6MBbZ1o0ttPw-32" target="FTOqa2qA6MBbZ1o0ttPw-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="FTOqa2qA6MBbZ1o0ttPw-32" value="팬코일, 에너지스크린 작동" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="-780" y="320" width="150" height="20" as="geometry" />
+          <mxGeometry x="-740" y="297" width="150" height="20" as="geometry" />
         </mxCell>
         <mxCell id="FTOqa2qA6MBbZ1o0ttPw-35" value="네" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="-440" y="465" width="30" height="30" as="geometry" />
+          <mxGeometry x="-440" y="404" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="FTOqa2qA6MBbZ1o0ttPw-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FTOqa2qA6MBbZ1o0ttPw-38" target="FTOqa2qA6MBbZ1o0ttPw-4" edge="1">
+        <mxCell id="4Cm1SKZQriDtmQIN7wxg-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FTOqa2qA6MBbZ1o0ttPw-38" target="FTOqa2qA6MBbZ1o0ttPw-4">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="150" y="495" />
-              <mxPoint x="150" y="210" />
+              <mxPoint x="-100" y="210" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="FTOqa2qA6MBbZ1o0ttPw-38" value="스마트팜 작동 변수 값을 유지한다." style="whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="-140" y="465" width="120" height="60" as="geometry" />
+          <mxGeometry x="-189" y="404" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FTOqa2qA6MBbZ1o0ttPw-40" value="아니오" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="-230" y="465" width="50" height="30" as="geometry" />
+          <mxGeometry x="-248" y="404" width="50" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
