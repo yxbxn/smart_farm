@@ -20,7 +20,8 @@
 ---
 ## 데이터 가공 및 전처리
 
-{{ 데이터 가공 및 전처리 도식 }}
+<img width="578" alt="스크린샷 2022-08-11 오후 8 19 16" src="https://user-images.githubusercontent.com/68985625/184124623-742478a9-e07b-41a6-a8c2-6202c1bba5d4.png">
+
 
 <br>
 
@@ -30,7 +31,8 @@
 
 Prophet은 business-time series 도구로 모델링과 결과 확인 이외의 작업을 자동화할 수 있다.
 
-{{ 모델 아키텍처 }}
+<img width="610" alt="스크린샷 2022-08-11 오후 8 19 25" src="https://user-images.githubusercontent.com/68985625/184124650-cf9abf17-a722-4e07-94a8-605da0977f0c.png">
+
 
 <br>
 
@@ -40,7 +42,8 @@ Prophet의 모형은 트렌드(growth), 계절성(seasonality), 휴일(holiday)�
 
 <br>
 
-{{ 공식 }}
+<img width="504" alt="스크린샷 2022-08-11 오후 8 20 40" src="https://user-images.githubusercontent.com/68985625/184124676-bd74d1f0-fd99-45e5-9615-a68b8094c4fa.png">
+
 
 <br>
 
@@ -58,7 +61,7 @@ Prophet의 모형은 트렌드(growth), 계절성(seasonality), 휴일(holiday)�
 
 ### 3) Model Tuning
 
-{{ Model Tuning }}
+<img width="591" alt="스크린샷 2022-08-11 오후 8 22 55" src="https://user-images.githubusercontent.com/68985625/184124696-710ca287-254e-464a-950f-f7ecd301eeb2.png">
 
 <br>
 
@@ -66,19 +69,19 @@ Prophet의 모형은 트렌드(growth), 계절성(seasonality), 휴일(holiday)�
 
 #### 회귀 계수
 
-{{ 회귀 계수 }}
+<img width="497" alt="스크린샷 2022-08-11 오후 8 23 48" src="https://user-images.githubusercontent.com/68985625/184124708-5baed357-d436-4a1e-aba1-b5090421dd1a.png">
 
 <br>
 
 ### 열공급량 예측 추세
 
-{{ 열공급량 예측 추세 }}
+<img width="525" alt="스크린샷 2022-08-11 오후 8 24 34" src="https://user-images.githubusercontent.com/68985625/184124773-f57e511c-41bb-4e67-a1ca-315c69dc8820.png">
 
 <br>
 
 ### 열공급량 분포와 시간별 열공급량 분포
 
-{{ 열공급량 분포와 시간별 열공급량 분포 }}
+<img width="556" alt="스크린샷 2022-08-11 오후 8 24 44" src="https://user-images.githubusercontent.com/68985625/184124736-82d66be1-dbd2-48ec-bac1-6fbf927039f1.png">
 
 <br>
 
@@ -93,13 +96,13 @@ Prophet의 모형은 트렌드(growth), 계절성(seasonality), 휴일(holiday)�
 두 번째로는 센서에서 온도를 감지하고 그 정보를 중앙 처리 장치로 보내서 온도를 변경하는 시간이 발생하여 열공급이 필요한 때와 열공급이 되는 때 사이에 시간차가 발생한다.
 이에 실시간으로 들어오는 정보들을 이용하여 특정 미 래 시점의 내부온도를 예측하고, 급박한 상황이 되기 전 미리 스마트팜을 제어할 수 있다면 변화에도 적응 할 수 있으며 기술적인 문제로 인해 발생하는 대기시간을 무시하고, 불필요한 에너지의 낭비를 줄일 수 있을 것이라 판단하였고, 이를 바탕으로 내부 온도를 예측하는 모델을 기반으로 한 절감 파이프라인을 개발하였다.
 
-{{ 선제적 예측 }}
+<img width="369" alt="스크린샷 2022-08-11 오후 8 28 13" src="https://user-images.githubusercontent.com/68985625/184124796-93dde292-d12d-47aa-a46d-054b06638116.png">
 
 <br>
 
 ### 절감 파이프라인
 
-{{ 절감 파이프라인 }}
+<img width="542" alt="스크린샷 2022-08-11 오후 8 28 17" src="https://user-images.githubusercontent.com/68985625/184124809-9224105a-fc41-445c-a872-81b4617b74cd.png">
 
 <br>
 
@@ -107,11 +110,11 @@ Prophet의 모형은 트렌드(growth), 계절성(seasonality), 휴일(holiday)�
 
 추가로 클라우드 컴퓨팅에서 사용하는 자원 활용 기술인 Auto Scaling 의 방식에서 착안하여 RRS(Resource Removal Strategy)를 도입하고, 절감량과 온도 유지적 측면을 고려하여 0.7로 설정하였다. RRS란 0 초과 1 이하의 값으로 변동성이 큰 워크로드에서 안정적으로 시스템을 가동하여 급작스러운 변화에도 쉽게 적응할 수 있도록 도와준다.
 
-{{ RRS 적용 예시 1 }}
+<img width="402" alt="스크린샷 2022-08-11 오후 8 28 23" src="https://user-images.githubusercontent.com/68985625/184124820-3a92fd20-4552-44e3-b78b-63dd62aed3a5.png">
 
 <br>
 
-{{ RRS 적용 예시 2 }}
+<img width="232" alt="스크린샷 2022-08-11 오후 8 28 26" src="https://user-images.githubusercontent.com/68985625/184124837-ff02ccd2-b4c3-42a6-b365-29920f51298c.png">
 
 <br>
 
@@ -124,11 +127,12 @@ Prophet의 모형은 트렌드(growth), 계절성(seasonality), 휴일(holiday)�
 
 PyCaret 의 자체적인 솔루션을 이용하여 RMSE 를 기반으로 상위 3 개의 Regressor 모델을 선택하였고. 가장 오차가 적은 Extra TreesRegressor 를 기반으로 하이퍼 파라미터를 튜닝하였다. 앙상블 중 Voting Regressor 를 채택하여 최종 모델을 선정하였다.
 
-{{ 상위 3개 단일 모델 }}
+<img width="547" alt="스크린샷 2022-08-11 오후 8 28 53" src="https://user-images.githubusercontent.com/68985625/184124863-1982d4c7-3bf0-4c94-a2a9-f6d9836f8b1b.png">
 
 <br>
 
-{{ 최종 모델 정보 }}
+<img width="608" alt="스크린샷 2022-08-11 오후 8 28 59" src="https://user-images.githubusercontent.com/68985625/184124878-89279437-851f-4105-a339-66d0a1471a2d.png">
+
 
 <br>
 
@@ -136,13 +140,14 @@ PyCaret 의 자체적인 솔루션을 이용하여 RMSE 를 기반으로 상위 
 
 #### 절감 전 팬코일/내부온도
 
-{{ 절감 전 팬코일/내부온도 }}
+<img width="623" alt="스크린샷 2022-08-11 오후 8 29 51" src="https://user-images.githubusercontent.com/68985625/184124890-48d8e968-df25-44ae-946b-0b13d6d271c6.png">
+
 
 <br>
 
 #### 절감 후 팬코일/내부온도
 
-{{ 절감 후 팬코일/내부온도 }}
+<img width="588" alt="스크린샷 2022-08-11 오후 8 29 58" src="https://user-images.githubusercontent.com/68985625/184124901-878f6e2b-02eb-4ac2-abed-f5f7b5880b06.png">
 
 <br>
 
